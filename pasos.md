@@ -29,3 +29,9 @@
 
 #Para crear una aplicacion
     python manage.py startapp core
+
+#Se debe registrar la app en settings.py
+
+#Se creara la primera vista en views.py
+
+#Se creara una puerta para ir a esa vista, en settings.py urls patterns
