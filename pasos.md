@@ -21,3 +21,11 @@
 #En la linea 105 de config/settings.py se cambia el lenguaje a "es"
 
 #En .gitignore se deben ignorar las carpetas __pycache__
+
+#Para subirlo a github
+    git add .
+    git commit -m feat ...
+    git push
+
+#Para crear una aplicacion
+    python manage.py startapp core
