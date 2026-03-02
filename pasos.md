@@ -49,3 +49,13 @@
 
 #Se debe crear la carpeta templates/core dentro de core
     Se creara un archivo index.html
+
+#Git
+#Para ver sobre que rama se esta parado
+    git branch
+
+#Para crear una nueva rama prueba
+    git branch prueba
+
+#Para cambiar a la rama prueba
+    gir checkout prueba
