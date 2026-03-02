@@ -35,3 +35,17 @@
 #Se creara la primera vista en views.py
 
 #Se creara una puerta para ir a esa vista, en settings.py urls patterns
+-------------------------------------------------------------------------------------asd
+
+#Para ver que paquetes se tiene instalados en .venv
+    pip freeze > requirements.txt
+
+#Para reinstalar los paquetes
+    pip install -r requirements.txt
+
+#Para crear una funcion
+    Se debe hacer una vista(funcion)
+    Luego se debe registrar esa vista en config/urls.py
+
+#Se debe crear la carpeta templates/core dentro de core
+    Se creara un archivo index.html

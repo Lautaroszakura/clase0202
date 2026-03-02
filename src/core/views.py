@@ -5,3 +5,9 @@ from django.http import HttpResponse
 
 def saludar(request):
     return HttpResponse("Hola desde django")
+
+def saludar_con_etiqueta(request):
+    return HttpResponse("<h1>Este es el tiulo de la app</h1>")
+
+def index(request):
+    return render(request,"core/index.html")
