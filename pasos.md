@@ -59,3 +59,24 @@
 
 #Para cambiar a la rama prueba
     gir checkout prueba
+
+    #Min 1 45
+
+#Para unir lo de la rama prueba a rama main
+    git merge prueba
+
+#Se creara la aplicacion Producto
+    python manage.py startapp producto
+
+#Dentro de models, se creara una clase
+    class
+
+
+#Para crear la base de datos
+
+    python manage.py makemigration
+
+#Se debe invocar
+    python manage.py migrate
+
+#Para ver los datos de la db con Django, se creara una vista en producto/views.py
